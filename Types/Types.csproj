@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Description>Contains types to enable the plugin architecture in NuGet Package Explorer.</Description>
+    <Product>NuGet Package Explorer</Product>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>NuGetPackageExplorer.snk</AssemblyOriginatorKeyFile>
+    <AssemblyName>NuGetPackageExplorer.Types</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Build.NuGetSdkResolver" Version="5.0.1-preview1.5772" />
+    <PackageReference Include="Microsoft.Web.Xdt" Version="2.1.2" />
+    <PackageReference Include="NuGet.Packaging" Version="5.0.0-xprivate.52646" />
+    <PackageReference Include="System.ComponentModel.Composition" Version="4.5.0" />
+  </ItemGroup>
+  
+</Project>
